@@ -1,14 +1,23 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 a {
     text-decoration: none;
+    padding: 12px 100px;
 }
 
 h1 {
     background-color: #d33b999c;
     text-align: center;
+    border: 1px solid wheat;
+    width: 400px;
+    height: auto;
+    margin: 24px auto 8px 24px;
+    padding: 16px; 
 }
 
 h3 {
@@ -23,9 +32,25 @@ h3 {
 }
 
 .recipe_list {
-    padding: 10px;
     font-size: 1.2em;
     font-weight: bold;
+    text-align: center;
     background-color: #14c08c86;
-    border-bottom: 1px solid wheat;
+    list-style-type: none;
+    width: 360px;
+    height: auto;
+    border: 1px solid wheat;
+    padding: 20px 50px;
+}
+
+.recipe_list#biryani {
+    margin: 0px auto 8px 240px;
+}
+
+.recipe_list#ramen {
+    margin: 0px auto 8px 420px;
+}
+
+.recipe_list#pizza {
+    margin: 0px auto 8px 600px;
 }
